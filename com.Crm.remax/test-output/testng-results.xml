@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[from thisorg_01caseexecution time]]>
+    </line>
+    <line>
+      <![CDATA[org_01case execution successfull!!]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-09-02T11:48:23 IST" name="Default suite" finished-at="2024-09-02T11:49:08 IST" duration-ms="45339">
+    <groups>
+    </groups>
+    <test started-at="2024-09-02T11:48:23 IST" name="Default test" finished-at="2024-09-02T11:49:08 IST" duration-ms="45339">
+      <class name="tc_Repository.ORG_01">
+        <test-method is-config="true" signature="createConnection()[pri:0, instance:tc_Repository.ORG_01@783a467b]" started-at="2024-09-02T11:48:23 IST" name="createConnection" finished-at="2024-09-02T11:48:23 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConnection -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tc_Repository.ORG_01@783a467b]" started-at="2024-09-02T11:48:23 IST" name="launchBrowser" finished-at="2024-09-02T11:48:29 IST" duration-ms="6312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginApp()[pri:0, instance:tc_Repository.ORG_01@783a467b]" started-at="2024-09-02T11:48:29 IST" name="loginApp" finished-at="2024-09-02T11:48:33 IST" duration-ms="3740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method signature="org_01case()[pri:0, instance:tc_Repository.ORG_01@783a467b]" started-at="2024-09-02T11:48:33 IST" name="org_01case" finished-at="2024-09-02T11:48:53 IST" duration-ms="20647" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[from thisorg_01caseexecution time]]>
+            </line>
+            <line>
+              <![CDATA[org_01case execution successfull!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- org_01case -->
+        <test-method is-config="true" signature="logoutApp()[pri:0, instance:tc_Repository.ORG_01@783a467b]" started-at="2024-09-02T11:48:53 IST" name="logoutApp" finished-at="2024-09-02T11:49:08 IST" duration-ms="14234" status="FAIL">
+          <exception class="org.openqa.selenium.JavascriptException">
+            <message>
+              <![CDATA[javascript error: {"status":60,"value":"http://localhost:8888/index.php?module=Users&action=Logout has no size and location"}
+  (Session info: chrome=128.0.6613.113)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff8b17c4330a003d6da5ddbecd3ed58c, actions {actions=[org.openqa.selenium.interactions.Sequence@7ff35a3f]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\rekha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9922}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9922/devtool..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff8b17c4330a003d6da5ddbecd3ed58c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: {"status":60,"value":"http://localhost:8888/index.php?module=Users&action=Logout has no size and location"}
+  (Session info: chrome=128.0.6613.113)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff8b17c4330a003d6da5ddbecd3ed58c, actions {actions=[org.openqa.selenium.interactions.Sequence@7ff35a3f]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.113, chrome: {chromedriverVersion: 128.0.6613.86 (3045ed680fda..., userDataDir: C:\Users\rekha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9922}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:9922/devtool..., se:cdpVersion: 128.0.6613.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff8b17c4330a003d6da5ddbecd3ed58c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:609)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:598)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:567)
+at genericUtilityOrLibrary.SeleniumUtility.clickOnAnElement(SeleniumUtility.java:51)
+at objectRepository.HomePage.logoutOperation(HomePage.java:79)
+at genericUtilityOrLibrary.BaseClass.logoutApp(BaseClass.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.JavascriptException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutApp -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:tc_Repository.ORG_01@783a467b]" started-at="2024-09-02T11:49:08 IST" name="closeApp" finished-at="2024-09-02T11:49:08 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="closeConnection()[pri:0, instance:tc_Repository.ORG_01@783a467b]" started-at="2024-09-02T11:49:08 IST" name="closeConnection" finished-at="2024-09-02T11:49:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- tc_Repository.ORG_01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
